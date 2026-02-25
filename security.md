@@ -1,39 +1,27 @@
-# Security Notes (CSE 3000)
-
-
+# Security Notes
 
 ## Intended users
 
-This repository is intended for use by me (the student) and the course staff for grading/review. The code and notebooks are for learning and assignments only.
+This repository is intended for use by me for completing assignments and Matt for grading/review. The code and notebooks are for assignments only
 
 
 
-## Security / privacy risks if leaked
+## Assesment of risk of security threats
 
-If someone other than the intended users accessed this repository, risks could include:
+If someone other than the intended users accessed this repository, risks could be:
 
-- Academic integrity issues (someone copying solutions).
+- Academic integrity issues (someone copying my solutions)
 
-- Exposure of any accidental sensitive data (if I ever included API keys, tokens, private links, or personal info).
-
-- Misuse of scripts/notebooks in unintended ways if someone ran them without understanding them.
+- Exposing accidental sensitive data (if I ever included private links or personal info)
 
 
 
-## Steps taken to secure this repo
+## Steps I have taken to secure this repo
 
-- I avoid storing secrets (API keys, tokens, passwords) directly in the repository.
+- I avoid storing sensitive or personal info directly in the repository, keeping it limited to course materials
 
-- I do not upload private datasets or personal information.
+- Since it's public, I do not share the link to anyone who I wouldn't want to have access to it (I would make it private but I can't change the visibility of a fork)
 
-- If the repo is public, I keep it limited to course materials and do not include anything sensitive.
+- I used the recommended GitHub repository rulesets to require pull requests and prevent direct pushes to the main branch
 
-- If the repo is private, access is restricted to only those who need it (me and course staff, if applicable).
-
-
-
-### Optional GitHub settings (if available)
-
-- I can use GitHub repository rules / branch protection (rulesets) to require pull requests and prevent direct pushes to the main branch.
-
-- Since this is a personal class repo and I am the only contributor, CODEOWNERS and strict PR rules may not be necessary, but they can be enabled for extra protection.
+- I added a CODEOWNERS file with my name as the sole contributor 
