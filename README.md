@@ -1,2 +1,7 @@
-# code_3000
-Collection of Assignments for CSE 3000: Contemporary Issues in Computer Science and Engineering
+# Ethics Statement
+
+Chapter 5 of *Ethical Machines* changed how I think about AI ethics. It showed me that AI ethics statements are usually useless because they're almost always very vage. Stating values like "fairness" or "transparency" are not enough, but you have to actually care and be specific about the harms you're trying to prevent.
+
+The 4-step framework appealed to me. What stuck with me is starting from your "ethical nightmares", or the worst-case outcomes you'd never want your product to cause. As someone studying computer science, my nightmare would be building something that disadvantages people without anyone noticing; like a model that works fine on average but consistently fails for certain groups. It shows that I can't just test for overall accuracy, but I also need to test for who it may be failing.
+
+Taking action in those 4 steps keeps you honest. It holds you accountable to more than your words. Overall, ethics is more than just stating a value... It is actually saying what's off the table and how you'll enforce it. It's easy to write "we care about our users" and move on. But the difficult part is to say something specific, and like in relation to my nightmare, this would be a statement like "we will never deploy a model without checking how it performs across different groups of people" and showing proof.  
